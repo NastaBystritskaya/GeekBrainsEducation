@@ -1,9 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2023-05-20T19:28:13.032Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.4.605 Yowser/2.5 Safari/537.36" version="21.3.2" etag="AsSEF4MO-lZ_YYDIVpdY" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-20T19:53:16.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.4.605 Yowser/2.5 Safari/537.36" etag="QVpUwvbue7WLAq5STBX9" version="21.3.2" type="github">
   <diagram name="Страница 1" id="Q_dZeOOHNCtRsrX6sr-5">
-    <mxGraphModel>
+    <mxGraphModel dx="1386" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_d1Y-n022akpc57-pDHt-1" value="Составить алгоритм вычисления суммы чека" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="_d1Y-n022akpc57-pDHt-2" target="_d1Y-n022akpc57-pDHt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="370" y="170" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-4" value="i&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;N&amp;nbsp; &amp;nbsp; &amp;nbsp;Продукт&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Количество&amp;nbsp; &amp;nbsp; Цена&lt;br style=&quot;font-size: 13px;&quot;&gt;0&amp;nbsp; &amp;nbsp; &amp;nbsp; 1&amp;nbsp; &amp;nbsp; &amp;nbsp; Продукт 1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 4&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 10&lt;br style=&quot;font-size: 13px;&quot;&gt;1&amp;nbsp; &amp;nbsp; &amp;nbsp; 2&amp;nbsp; &amp;nbsp; &amp;nbsp; Продукт 2&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 5&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 8&lt;br style=&quot;font-size: 13px;&quot;&gt;2&amp;nbsp; &amp;nbsp; &amp;nbsp; 3&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Продукт 3&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;2&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 20" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="30" y="460" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="_d1Y-n022akpc57-pDHt-5" target="_d1Y-n022akpc57-pDHt-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-5" value="countProduct{}&lt;br style=&quot;font-size: 13px;&quot;&gt;priceProduct{}" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="370" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="_d1Y-n022akpc57-pDHt-9" target="_d1Y-n022akpc57-pDHt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-9" value="size = countProduct.Length" style="whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="_d1Y-n022akpc57-pDHt-11" target="_d1Y-n022akpc57-pDHt-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-11" value="sum = 0&lt;br style=&quot;font-size: 13px;&quot;&gt;i = 0" style="whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="370" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-16" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="_d1Y-n022akpc57-pDHt-13" target="_d1Y-n022akpc57-pDHt-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-24" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="_d1Y-n022akpc57-pDHt-13" target="_d1Y-n022akpc57-pDHt-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-13" value="i &amp;lt; size" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="390" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="_d1Y-n022akpc57-pDHt-15" target="_d1Y-n022akpc57-pDHt-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-15" value="sum = sum + countProduct[i] * priceProduct[i]" style="whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="300" y="690" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="_d1Y-n022akpc57-pDHt-17" target="_d1Y-n022akpc57-pDHt-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="810" />
+              <mxPoint x="190" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-17" value="i = i + 1" style="whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="370" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="_d1Y-n022akpc57-pDHt-23" target="_d1Y-n022akpc57-pDHt-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-23" value="sum" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="530" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-25" value="end" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="690" y="570" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_d1Y-n022akpc57-pDHt-32" value="4 * 10 =&amp;nbsp; 40&lt;br&gt;5 * 8&amp;nbsp; = 40 + 40 = 80&lt;br&gt;2 * 20 = 40 + 80 =120" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="540" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
