@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T21:49:04.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.0.2204 Yowser/2.5 Safari/537.36" etag="BphV66cuJsdHcnbuh0Pm" version="21.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T21:52:48.792Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.0.2204 Yowser/2.5 Safari/537.36" etag="V20z_KbFssUgf7qwltAN" version="21.3.3" type="github">
   <diagram name="Страница 1" id="s07QVJBrdxi1nYjNhe77">
     <mxGraphModel dx="1050" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TF3pRwJFimp7h_ypAoeA-1" value="Найти среднее арифметическое среди всех элементов массива" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="TF3pRwJFimp7h_ypAoeA-1" value="Нахождение индексов максимального и минимального элементов массива" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="40" y="50" width="380" height="70" as="geometry" />
         </mxCell>
         <mxCell id="TF3pRwJFimp7h_ypAoeA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="TF3pRwJFimp7h_ypAoeA-2" target="TF3pRwJFimp7h_ypAoeA-3">
